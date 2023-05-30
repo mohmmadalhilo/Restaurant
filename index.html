@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Lora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/439e4a89de.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <body>
+        <header>
+            <div>
+              <h1>Restaurant</h1> 
+              <img src="./kk.jpg" width="40px" height="40px">
+            </div>
+             
+             
+             <ul>
+               <li><a  href="">Home</a></li>  
+                <li><a href="./accounting.html">Accounting</a></li> 
+             </ul>
+      
+         </header>
+        <main>
+            <form id="form">
+                <div>
+                    <label for="foodName">Food Name:</label>
+                    <input id="foodName" type="text" name="foodName" placeholder="Food Name...">
+                </div>
+                <div>
+                    <label for="selectfood">Select the Food :</label>
+                    <select id="selectfood">
+                        <option>Fruit and vegetables</option>
+                        <option>Starchy food</option>
+                        <option>Dairy</option>
+                        <option>Protein</option>
+                        <option>Fat</option>
+                    </select>
+
+            </div>
+            <div class="pr">
+                <label for="price">Price:</label>
+                <input  id="price" min="1" max="10" type="number" name="Price" placeholder="1 JD">
+            </div>
+            <div>
+                <button id="submit" name="submit" type="submit">save</button>
+
+            </div>
+
+                
+            </form>
+            <br> <br> <br>
+
+
+            <table id="table">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>price</th>
+                    
+                </tr>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+           
+    
+        </main>
+        <footer>
+
+            <div class="footer-content">
+               
+                <p>
+        
+                </p>
+                <ul class="socials">
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-github"></i></a></li>
+                    <li><a href=""></a><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy; <a href="">Restaurant</a>  </p>
+                        <div class="footer-menu">
+                          <ul class="f-menu">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                          </ul>
+                        </div>
+            </div>
+        
+        </footer>
+     
+   
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
